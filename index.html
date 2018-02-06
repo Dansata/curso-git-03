@@ -5,6 +5,12 @@
     <title>Nivel 03 | Repositorios remotos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style media="screen">
+      strong{
+        font-style: italic;
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -13,6 +19,9 @@
         <div class="col-xs-12">
           <h4>Crear Repositorio vacío en github</h4>
           <p> Primero creo un repositorio vacio en git hub</p>
+          <h4>$ git add remote</h5>
+          <p>Una vez creamos el repositorio en GitHub, copiamos la dirección y sincronizamos con el repositorio local. Para esto, usamos el comando <strong> $ git remote add origin https://github.com/User/nombreRepositorio.git</strong></p>
+          <p>Una vez sincronizado, subimos la rama con nuestro repositorio con el comando <strong>$ git push origin master</strong><hr>La terminal nos pedirá usuario y contraseña de Github y luego lo subirá</p>
         </div>
       </div>
     </div>
